@@ -4,7 +4,7 @@ This repository contains Python code and Jupyter notebooks to explain prototypes
 
 This is a fork of [ProtoPNet](https://github.com/cfchen-duke/ProtoPNet) with a new folder `preprocessing` and an extra notebook `prototype_activation.ipynb`. 
 
-<!-- Corresponding paper: ["This Looks Like That, Because ... Explaining Prototypes for Interpretable Image Recognition"]() -->
+Corresponding paper on ArXiv: ["This Looks Like That, Because ... Explaining Prototypes for Interpretable Image Recognition"](http://arxiv.org/abs/2011.02863)
 
 ![Overview of explaining prototypical learning for image recognition.](overview_explaining_prototypes.png "Explaining Prototypes")
 Overview of explaining prototypical learning for image recognition. 1) Dataset with bird species for image recognition. 2) Image classification based on similarity with prototypical patches obtained by [ProtoPNet](https://github.com/cfchen-duke/ProtoPNet). 3) Our contribution: Explaining why the classification model considered the test image and the prototype to be similar. Importance scores quantify the importance of visual characteristics.
