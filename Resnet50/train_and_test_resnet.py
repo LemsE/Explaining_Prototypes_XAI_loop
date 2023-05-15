@@ -13,7 +13,8 @@ import matplotlib.pyplot as plt
 """
 Todo:
 - Add logger
-
+- Add early stopping
+- Add fine tuning
 """
 
 def train_model(
